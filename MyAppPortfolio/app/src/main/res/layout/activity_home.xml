@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:text="My Nanodegree Apps!"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/bPopularMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorButton"
+            android:onClick="popularMovies"
+            android:text="Popular Movies" />
+
+        <Button
+            android:id="@+id/bStockHawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorButton"
+            android:onClick="stockHawk"
+            android:text="Stock Hawk" />
+
+        <Button
+            android:id="@+id/bBuilditBigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorButton"
+            android:onClick="builditBigger"
+            android:text="Build it Bigger" />
+
+        <Button
+            android:id="@+id/bMakeYourAppMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorButton"
+            android:onClick="makeYourAppMaterial"
+            android:text="Make Your App Material" />
+
+
+        <Button
+            android:id="@+id/bGoUbiquitous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorButton"
+            android:onClick="goUbiquitous"
+            android:text="Go Ubiquitous" />
+
+        <Button
+            android:id="@+id/bCapstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@color/colorAccent"
+            android:onClick="capstone"
+            android:text="Capstone:My own app"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
